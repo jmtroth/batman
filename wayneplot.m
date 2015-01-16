@@ -2,7 +2,6 @@
 
 axes('Xlim'  ,[-7 7]    , 'Xtick' ,-7:7,...
      'Ylim'  ,[-5 5]    , 'Ytick' ,-5:5,...
-     'YtickL',''        , 'XtickL',''  ,...
      'Ygrid' ,'on'      , 'Xgrid' ,'on',...
      'Xcolor',[.8 .8 .8], 'Ycolor',[.8 .8 .8]);
 hold on
@@ -34,7 +33,7 @@ ezplot(f6,[-3 -1 -5 5]);
 ezplot(f6,[ 1  3 -5 5]);
 % Change line color and width
 
-set(get(gca,'children'),'Color','black','Linew',2)
+set(get(gca,'children'),'Color','g','Linew',2)
 % Title and labels
 
 title('I''m Batman'); xlabel('Villainy','color','black'); ylabel('Justice','color','black'); legend('Plotline')
