@@ -33,11 +33,7 @@ ezplot(f6,[-3 -1 -5 5]);
 ezplot(f6,[ 1  3 -5 5]);
 % Change line color and width
 
-<<<<<<< HEAD
-set(get(gca,'children'),'Color','black','Linew',2)
-=======
 set(get(gca,'children'),'Color','m','Linew',2)
->>>>>>> 665c544365bad9eff55431cdf1f7f2ac256b1169
 % Title and labels
 
 title('I''m Batman'); xlabel('Villainy','color','black'); ylabel('Justice','color','black'); legend('Plotline')
